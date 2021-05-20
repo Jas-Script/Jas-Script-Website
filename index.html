@@ -16,11 +16,10 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">JAS-SCRIPT</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <a class="navbar-brand" href="#">
+        <img src="https://i.postimg.cc/N0pmCYL4/logo2.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        Jas-Script
+      </a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -50,7 +49,9 @@
               More
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Login/Sign-up</a></li>
+              <li><a class="dropdown-item" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                  aria-controls="offcanvasExample">Login/Sign-up</a></li>
+
               <li><a class="dropdown-item" href="#">Contact me</a></li>
 
               <li>
@@ -100,7 +101,7 @@
   <br><br><br><br>
 
   <h1 class="display-2 text-center">About Me</h1>
-  <br><br><br><br>
+  <br><br>
   <div class="container">
     <div class="row justify-content-md-center">
       <div class="card mb-8" style="max-width: 1400px;">
@@ -125,7 +126,7 @@
   </div>
   <br><br><br><br>
   <h1 class="display-2 text-center">EDUCATION</h1>
-  <br><br><br><br>
+  <br><br>
   <div class="card-group">
     <div class="card">
       <img src="https://i.postimg.cc/9fqhPgpX/gtbit.jpg" class="card-img-top" alt="...">
@@ -159,8 +160,52 @@
     </div>
   </div>
   <br><br><br><br>
-  <h1 class="display-2 text-center">SKILLS</h1>
+  <h1 class="display-2 text-center">EXPERIENCE</h1>
+  <br><br>
+  <div class="container">
+    <div class="row row-cols-2">
+      <div class="col">
+        <nav id="navbar-example3" class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+          <a class="navbar-brand" href="#">Experience</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#item-1">Student ambassador at mno</a>
+            <a class="nav-link" href="#item-2">Internship at abc</a>
+            <a class="nav-link" href="#item-3">Teaching Assistant at xyz</a>
+          </nav>
+        </nav>
+      </div>
+      <div class="col">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+          <h4 id="item-1">Student ambassador</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi vel aliquam officiis, similique nesciunt
+            ipsa
+            eveniet amet adipisci laborum velit harum maxime, culpa non. Quae, architecto. Maiores nisi ea inventore
+            facere
+            corrupti nemo praesentium minima a provident quod ipsam sit fuga, obcaecati ut nobis molestias sunt.
+            Recusandae
+            veritatis exercitationem earum?</p>
+          <h4 id="item-2">Internship at xyz</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A recusandae amet vitae! Incidunt modi voluptate
+            necessitatibus quis, impedit hic, obcaecati labore praesentium deleniti exercitationem iure nulla
+            consequatur
+            ipsam rerum reprehenderit natus expedita laborum aperiam aspernatur. Amet et quod pariatur dolores velit
+            soluta
+            eum quaerat est possimus quas. Autem, iure aperiam?</p>
+          <h4 id="item-3">Teaching assistant at abc</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum odio recusandae aut inventore architecto
+            corrupti fuga quam nemo tenetur harum, nesciunt quos distinctio placeat quod facere saepe nihil, sit
+            voluptatibus suscipit illo ab! Voluptas tempora perspiciatis distinctio sunt vero sint officiis, fugiat
+            laborum
+            neque aliquam nobis odit, tenetur maxime fuga.</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <br><br><br><br>
+
+
+  <h1 class="display-2 text-center">SKILLS</h1>
+  <br><br>
   <div class="list-group">
     <a href="#" class="list-group-item list-group-item-action">
       <div class="d-flex w-100 justify-content-between">
@@ -239,8 +284,9 @@
 
     </a>
   </div>
-
+  <br><br><br><br>
   <h1 class="display-2 text-center">PROJECTS</h1>
+  <br><br>
   <div class="row row-cols-1 row-cols-md-4 g-4">
     <div class="col">
       <div class="card">
@@ -288,8 +334,9 @@
     </div>
   </div>
 
-
+  <br><br><br><br>
   <h1 class="display-2 text-center">CERTIFICATIONS</h1>
+  <br><br>
   <div class="container">
     <div class="row justify-content-md-center">
       <div class="col-lg-6">
@@ -334,12 +381,73 @@
       </ol>
     </div>
   </div>
-  
+  <br><br><br><br>
+  <h1 class="display-2 text-center">LEAVE A MESSAGE</h1>
+  <br><br>
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col col-md-8">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Kindly eneter your e-mail so that I can revert back
+            to you</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Leave a message for me. I will be pleased to hear
+            from you! :)</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">LOGIN</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <br><br>
+      <h5>SIGN-UP</h5>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Create Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Set Password</button>
+      </form>
+    </div>
+  </div>
+  <br><br><br><br>
   <h1 class="display-2 text-center">CONTACT ME</h1>
+  <br><br>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-2">
-        <a href="https://github.com/Jas-Script" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-512.png" width="60px"></a>
+        <a href="https://github.com/Jas-Script" target="_blank"><img
+            src="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-512.png" width="60px"></a>
       </div>
       <div class="col-2 row justify-content-center">
         <a href="https://www.facebook.com/profile.php?id=100009175092863" target="_blank"><img
@@ -352,8 +460,8 @@
             width="60px"></a>
       </div>
       <div class="col-2 row justify-content-center">
-        <a href="https://www.instagram.com/jaskirat.mokha/" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-3-512.png"
-            width="70px"></a>
+        <a href="https://www.instagram.com/jaskirat.mokha/" target="_blank"><img
+            src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-3-512.png" width="70px"></a>
       </div>
       <div class="col-2 row justify-content-center">
         <a href="https://www.linkedin.com/in/jaskirat-singh-009348178/" target="_blank"><img
@@ -361,12 +469,12 @@
             width="60px"></a>
       </div>
       <div class="col-2 row justify-content-center">
-        <a href="https://www.quora.com/profile/Jaskirat-Mokha" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2421/512/Quora-512.png"
-            width="60px"></a>
+        <a href="https://www.quora.com/profile/Jaskirat-Mokha" target="_blank"><img
+            src="https://cdn2.iconfinder.com/data/icons/social-media-2421/512/Quora-512.png" width="60px"></a>
       </div>
     </div>
   </div>
- 
+
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
